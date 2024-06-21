@@ -1,0 +1,38 @@
+---
+title: Astro برای مستندات
+description: پوسته‌ای آماده و ساده برای مستندنویسی با فریمورک Astro
+template: splash
+hero:
+  tagline: پوسته‌ای آماده و ساده برای مستندنویسی با فریمورک Astro
+  image:
+    file: ../../assets/icon.webp
+  actions:
+    - text: شروع کنید
+      link: /main/project
+      icon: left-arrow
+      variant: primary
+    - text: نویسنده پروژه
+      link: https://arastoo.net
+      icon: external
+      attrs:
+        target: _blank 
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## آشنایی با پروژه
+
+<CardGrid stagger>
+	<Card title="هدف پروژه" icon="pencil">
+    با استفاده از این پوسته می‌توانید به سادگی محتوای‌ مستندات‌تان را وارد کرده و آن را به‌سرعت دیپلوی کنید.
+	</Card>
+	<Card title="مبتنی بر ASTRO" icon="open-book">
+این پوسته براساس فریمورک Astro و فورک پوسته و پوسته [Starlight](https://starlight.astro.build/) ساخته شده است.
+	</Card>
+	<Card title="از کجا شروع کنیم؟" icon="setting">
+  تمام متون و ساختار این مستندات به سادگی قابل تغییر است. می‌توانید تغییر محتوا دایرکتوری Content شروع کنید. 
+	</Card>
+	<Card title="گیت‌هاب پروژه" icon="open-book">
+		می‌توانید در صفحه گیت‌هاب این پروژه مشارکت کنید [گیت‌هاب](https://github.com/arastoonet/astrortl).
+	</Card>
+</CardGrid>
